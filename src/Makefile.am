@@ -1,1 +1,1 @@
-SUBDIRS = util http aws examples netbench tests
+SUBDIRS = util http aws examples legacy netbench tests

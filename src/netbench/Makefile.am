@@ -3,6 +3,9 @@ AM_CXXFLAGS = $(PICKY_CXXFLAGS)
 
 LAMBDA_FLAGS = -ldl -static -Wl,--whole-archive -lpthread -Wl,--no-whole-archive
 
+LIBS = ../legacy/aws/libmushlegacyaws.a ../legacy/util/libmushlegacyutil.a \
+  ../http/libmushhttp.a ../util/libmushutil.a
+
 bin_PROGRAMS = worker master
 
 master_SOURCES = master.cc

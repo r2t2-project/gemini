@@ -41,6 +41,9 @@ AC_CONFIG_FILES([
     src/http/Makefile
     src/aws/Makefile
     src/examples/Makefile
+    src/legacy/Makefile
+    src/legacy/util/Makefile
+    src/legacy/net/Makefile
     src/netbench/Makefile
     src/tests/Makefile
 ])
