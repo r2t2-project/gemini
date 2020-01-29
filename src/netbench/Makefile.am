@@ -1,4 +1,4 @@
-AM_CPPFLAGS = $(CXX17_FLAGS) $(SSL_CFLAGS) -I$(srcdir)/../util -I$(srcdir)/../http
+AM_CPPFLAGS = $(CXX17_FLAGS) $(SSL_CFLAGS)  -I$(srcdir)/.. -I$(srcdir)/../util -I$(srcdir)/../http
 AM_CXXFLAGS = $(PICKY_CXXFLAGS)
 
 LAMBDA_FLAGS = -ldl -static -Wl,--whole-archive -lpthread -Wl,--no-whole-archive
